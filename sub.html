@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>
+    Keyskills wrap up    
+    </title>
+    <meta name="description" content="Simple landind page" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet" />
+    <style>
+      .gradient {
+        background: linear-gradient(90deg, #577399 0%, #BDD5EA 100%);
+      }
+    </style>
+  </head>
+  <body class="leading-normal tracking-normal text-red gradient" style="font-family: 'Source Sans Pro', sans-serif;">
+    <!--Nav-->
+    <nav id="header" class="fixed w-full z-30 top-0 text-red bg-white">
+      <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
+        <div class="pl-4 flex items-center">
+          <a class="toggleColour text-red no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="#">
+            E-just guide
+          </a>
+        </div>
+        <div class="block lg:hidden pr-4">
+          <button id="nav-toggle" class="flex items-center p-1 text-pink-800 hover:text-gray-900 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+            <svg class="fill-current h-6 w-6" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <title>Menu</title>
+              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+            </svg>
+          </button>
+        </div>
+        <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20" id="nav-content">
+          <ul class="list-reset lg:flex justify-end flex-1 items-center">
+            <li class="mr-3">
+              <a class="inline-block py-2 px-4 text-black font-bold no-underline" href="#">Active</a>
+            </li>
+            <li class="mr-3">
+              <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="#">link</a>
+            </li>
+            <li class="mr-3">
+              <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="#">link</a>
+            </li>
+          </ul>
+          <button
+            id="navAction"
+            class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
+          >
+            Action
+          </button>
+        </div>
+      </div>
+      <hr class="border-b border-gray-100 opacity-25 my-0 py-0" />
+    </nav>
+    <div class="pt-36">
+      <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
+          <p class="flex flex-row text-xl mx-auto font-bold text-2xl text-red-800 mx-6 my-4 py-3 border-b border-gray-600">
+              Here are the helper files of keyskills 1
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="flex flex-wrap flex-row mx-12">
+      <div class="flex flex-1">
+        <div class="w-full rounded-sm overflow-hidden shadow-lg m-16">
+          <div class="mx-6 my-4 border-b border-gray-light">
+            <div class="font-medium text-base text-gray-darker mb-4">Research steps are crucial to any research project. Here is the steps advised to follow by our keyskill instructor: Dr. Amal gomaa</div>
+          </div>
+          <a href="steps.html">
+            <button class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow m-6">Steps</button> 
+          </a>
+        </div>
+      </div>
+      <div class="flex flex-1">
+        <div class="w-full rounded-sm overflow-hidden shadow-lg m-16">
+          <div class="mx-6 my-4 border-b border-gray-light">
+            <div class="font-medium text-base text-gray-darker mb-4">Here are the trusted web links to search from in your research</div>
+          </div>
+          <a href="links.html">
+            <button class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow m-6">Links</button> 
+          </a>
+        </div>
+      </div>
+    </div>
+</body>
